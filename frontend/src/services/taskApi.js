@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE = import.meta.env.VITE_API_URL || 'https://task-manager-89mo.onrender.com/api';
 console.debug('API BASE:', BASE);
 
 export const getStats = async () => {
